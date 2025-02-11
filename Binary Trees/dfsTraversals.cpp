@@ -9,11 +9,6 @@
 */
 
 
-
-
-
-
-
 #include <iostream>
 using namespace std;
 
@@ -31,7 +26,7 @@ public:
 
 void preorder(Node* root){
     if(root ==  NULL) return;
-    cout<<root->val<<" ";
+    cout<<root->val<<" "; 
     preorder(root->left);
     preorder(root->right);
 }
@@ -67,13 +62,13 @@ int main(){
     c->left = f;
     c->right = g;
 
-    cout<<"Preorder traversal : ";
+    cout<<"Preorder traversal : ";  // 1 2 4 5 3 6 7
     preorder(a);
     cout<<endl;
-    cout<<"Inorder traversal : ";
+    cout<<"Inorder traversal : ";   // 4 2 5 1 6 3 7
     inorder(a);
     cout<<endl;
-    cout<<"Postorder traversal : ";
+    cout<<"Postorder traversal : "; // 4 5 2 6 7 3 1
     postorder(a);
     cout<<endl;
 

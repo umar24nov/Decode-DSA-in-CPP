@@ -41,7 +41,7 @@ int maxInTree(Node* root){
 
 int main(){
     Node* a = new Node(1);
-    Node* b = new Node(9);
+    Node* b = new Node(2);
     Node* c = new Node(3);
     Node* d = new Node(4);
     Node* e = new Node(5);
@@ -56,7 +56,7 @@ int main(){
     cout<<"Displaying Tree Value's : ";
     displayTree(a);
     cout<<endl;
-    cout<<"Sum Of Tree : " << sumOfTree(a)<<endl;
-    cout<<"Size Of Tree : " << sizeOfTree(a)<<endl;
-    cout<<"Max In Tree : " << maxInTree(a)<<endl;
+    // cout<<"Sum Of Tree : " << sumOfTree(a)<<endl;
+    // cout<<"Size Of Tree : " << sizeOfTree(a)<<endl;
+    // cout<<"Max In Tree : " << maxInTree(a)<<endl;
 }
